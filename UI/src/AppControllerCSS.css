@@ -1,0 +1,138 @@
+/* Set the background color to light metallic green */
+.root {
+    -fx-background-color: #66cdaa;
+    -fx-fill: white; /* Set text fill color to white */
+    -fx-stroke: black; /* Set text outline color to black */
+    -fx-stroke-width: 2px; /* Set the outline thickness (adjust as needed) */
+}
+
+.button:hover{
+    background-color: #2980b9; /* Background color on hover */
+    color: #ffffff; /* Text color on hover */
+    border: none; /* Border on hover */
+    padding: 12px 22px;
+}
+
+#infoLabel{
+    -fx-background-color: #84d7bb;
+    -fx-alignment: center;
+    -fx-font-size: 8px;
+    -fx-font-weight: bold;
+}
+
+#treeView{
+    -fx-background-color: #336655;
+}
+
+#details {
+    -fx-background-color: #336655;
+}
+
+#predictionsLabel{
+    -fx-font-size: 26px; /* Set the font size to make it bigger */
+    -fx-text-fill: white; /* Set text fill color to white */
+    -fx-alignment: center;
+    -fx-font-weight: bold;
+}
+
+#headerComponent{
+    -fx-background-color: #a3e1cc;
+
+}
+
+#tabsContainer {
+    -fx-background-color: #66cdaa;
+    -fx-fill: white; /* Set text fill color to white */
+    -fx-stroke: black; /* Set text outline color to black */
+    -fx-stroke-width: 2px; /* Set the outline thickness (adjust as needed) */
+}
+
+/* Set the tab text color to white and add a black border */
+.tab .tab-label {
+    -fx-background-color: #d1f0e5;
+    -fx-fill: white; /* Set text fill color to white */
+    -fx-stroke: black; /* Set text outline color to black */
+    -fx-stroke-width: 2px; /* Set the outline thickness (adjust as needed) */
+    -fx-border-color: #5bb899;
+}
+
+#entitiesSetUp {
+    -fx-margin-left: 10px;
+}
+
+/* Adjust spacing within VBox elements */
+#setEntitiesList {
+    -fx-padding: 10px 20px 10px 10px;
+    -fx-spacing: 10px; /* Set the desired spacing value */
+    -fx-border-color: #F0FFFF;
+    -fx-border-width: 2;
+
+}
+
+/* Adjust spacing within HBox children */
+.custom-hbox {
+    -fx-spacing: 10px; /* Set the desired spacing value */
+}
+
+/* Adjust padding for enironmentVbox */
+#enironmentVbox {
+    -fx-padding: 10px 20px 10px 10px; /* Adjust the left padding value */
+    -fx-spacing: 10px;
+    -fx-border-color: #F0FFFF;
+    -fx-border-width: 2;
+}
+
+#EnvironemtSetUpLabel{
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+}
+
+#entitiesSetUp{
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+}
+
+/* Customize Slider track */
+.slider .track {
+    -fx-background-color: #dddddd; /* Set the track background color */
+}
+
+/* Customize Slider thumb */
+.slider .thumb {
+    -fx-background-color: #3498db; /* Set the thumb color */
+    -fx-background-radius: 0; /* Remove the border radius for square thumbs */
+    -fx-padding: 3px; /* Adjust padding for better visibility */
+}
+
+
+/* Add margin between buttons in the VBox */
+#controlButtonsVbox {
+    -fx-margin: 5px; /* Adjust the margin value as needed */
+    -fx-padding: 5px 5px 5px 5px; /* Adjust the left padding value */
+    -fx-spacing: 5px;
+}
+
+#stopBtn {
+    -fx-font-weight: bold;
+    -fx-font-size: 10px;
+    -fx-background-color: #cd004c;
+}
+
+#resumeBtn{
+    -fx-font-weight: bold;
+    -fx-font-size: 10px;
+    -fx-background-color: #66b266;
+
+}
+
+#pauseBtn{
+    -fx-font-weight: bold;
+    -fx-font-size: 10px;
+    -fx-background-color: #ffff4c;
+}
+
+#rerunBtn{
+    -fx-font-weight: bold;
+    -fx-font-size: 10px;
+    -fx-background-color: #539ed6;
+}
